@@ -1,5 +1,7 @@
 /// Go: map function return a slice of KeyValue
 /// Rust: returns a vector with owned KeyValue
+
+#[derive(Debug)]
 pub struct KeyValue {
     /// Key of this pair
     pub key: String,
