@@ -1,0 +1,10 @@
+workspace = { members = ["src/plugins/wc"] }
+[package]
+name = "MIT6-5840"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+anyhow = "1.0.80"
+libloading = "0.8.1"
